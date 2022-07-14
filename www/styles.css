@@ -1,0 +1,36 @@
+body {
+  background-color: #264653;
+  font-family: Sans-Serif;
+  color: #fff;
+}
+
+#main {
+  border-radius: 25px;
+  border: 2px solid #2a9d8f;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#convert {
+  background-color: #264653;
+  border: 2px solid #2a9d8f;
+  color: #fff;
+}
+
+#binary_text {
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  display: block;
+}
+
+/* Shiny Elements */
+.shiny-output-error-validation {
+  color: #ffafcc;
+}
+
