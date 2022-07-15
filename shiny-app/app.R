@@ -1,6 +1,6 @@
 library(shiny)
 library(shinyjs)
-library(tidyverse)
+library(purrr)
 library(waiter)
 library(glue)
 
