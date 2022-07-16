@@ -2,6 +2,8 @@
 
 This is my Shiny app from the first app ideas list in the [app-ideas](https://github.com/florinpop17/app-ideas) repo from *florinpop17*.
 
+This app was also dockerized and deployed into an Azure Web App [here](https://bin2dec.azurewebsites.net/).
+
 ## Description
 
 Binary is the number system all digital computers are based on.
