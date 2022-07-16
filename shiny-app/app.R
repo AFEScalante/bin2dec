@@ -39,7 +39,7 @@ server <- function(input, output) {
 
     # Transforms binary to decimal digits
     decNumber <- eventReactive(input$convert, {
-        req(input$binary_text)
+        req(input$binary_text, cancelOutput = FALSE)
         waiter <- waiter::Waiter$new(color = transparent(0.3))
         waiter$show()
         on.exit(waiter$hide())
@@ -50,7 +50,7 @@ server <- function(input, output) {
 
     observeEvent(input$convert, {
         output$decimal_text <- renderText({
-            req(input$binary_text)
+            req(input$binary_text, cancelOutput = FALSE)
             if (!is_binary(input$binary_text)) {
                 validate("Input must be binary: Only 0 and 1 accepted")
             }
